@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Masai University</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="main.html"><img src="logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close-o"   onclick="hideMenu()" ></i>
+            
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSE</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()" ></i>
+        
+        </nav>
+        <div class="text-block">
+            <h1>Masai Global University</h1>
+            <p>Masai is the oldest and the  most prestigious University of India ranked "2nd" in Global leading Universities in field<br>
+                of Educatuin and Infrastructure.It is also affiliated under Govt of India University Act 1999.</p>
+             <a href="" class="hero-btn">Visit us to know more. </a>
+        </div>
+        </section>
+        <!--Course-->
+        <section class="course">
+            
+    
+            <pre style="background-color: rgb(157, 255, 23); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+            
+                                                                                                                                                                            
+                                                                                                                                                                                                     COURSES WE OFFER
+                                                                                                                                                                             Enroll now to get world class Education.       
+                                                                                                                                                      
+            <div class="row">
+                <div class="course-col">
+                                                                                                                                 Intermediate
+                                                                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                                                                          Ab quas, nostrum earn to save life. </div>
+                <div class="course-col">
+                                                                                                                                   Degree
+                                                                                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                                                                                Ab quas, nostrum earn to save life.
+                                        </div>
+                    <div class="course-col">
+                                                                                                                               Post Graduation
+                                                                                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                                                                                               Ab quas, nostrum earn to save life.   
+                                                                                                </pre>
+                        </div>
+                
+            </div>
+        <!--Javascript For toggle menu--->
+        <script>
+            var navLinks=document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-200px";
+            }
+            }
+        </script>
+
+</body>
+</html>
